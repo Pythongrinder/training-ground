@@ -1,1 +1,1 @@
-web: gunicorn protected-headland-90465.wsgi --log-file -
+web: gunicorn django_app.wsgi --log-file -
