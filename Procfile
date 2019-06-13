@@ -1,2 +1,1 @@
-gunicorn pages_project.wsgi --log-file -
-worker: python worker.py
+web: gunicorn pages_project.wsgi --log-file -
